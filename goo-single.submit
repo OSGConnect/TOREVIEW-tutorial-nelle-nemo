@@ -1,7 +1,7 @@
 Universe = vanilla
 
 Executable = do-stats.sh
-Transfer_Input_Files = NENE01729A.txt
+Transfer_Input_Files = goostats NENE01729A.txt
 Transfer_Output_Files = stats-NENE01729A.txt
 
 Log = log/cluster.log

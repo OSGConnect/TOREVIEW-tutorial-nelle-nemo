@@ -13,7 +13,7 @@ echo '# Now begins the enqueueing of many jobs:'
 for file in $*
 do
 	echo
-	echo "Transfer_Input_Files = $file"
+	echo "Transfer_Input_Files = goostats $file"
 	echo "Transfer_Output_Files = stats-$file"
 	echo 'Queue'
 done
