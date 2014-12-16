@@ -4,7 +4,7 @@ echo "Universe = vanilla"
 echo
 echo "Executable = do-stats.sh"
 echo
-echo 'Log = log/cluster.log'
+echo 'Log = log/cluster.$(Cluster).log'
 echo 'Output = log/job.output.$(Cluster)-$(Process)'
 echo 'Error = log/job.error.$(Cluster)-$(Process)'
 echo
