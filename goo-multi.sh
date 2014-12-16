@@ -14,6 +14,5 @@ for file in $*
 do
 	echo
 	echo "Transfer_Input_Files = goostats, $file"
-	echo "Transfer_Output_Files = stats-$file"
 	echo 'Queue'
 done
