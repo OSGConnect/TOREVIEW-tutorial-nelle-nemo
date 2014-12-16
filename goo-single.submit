@@ -2,6 +2,7 @@ Universe = vanilla
 
 Executable = do-stats.sh
 Transfer_Input_Files = goostats, NENE01729A.txt
+Arguments = NENE01729A.txt
 
 Log = log/cluster.log
 Output = log/job.output.$(Cluster)-$(Process)
